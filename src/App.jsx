@@ -8,11 +8,12 @@ import Card from "./components/Card"
 function createCard(item) {
   return (
     <Card 
-  title={item.title}
-  description={item.description}
-  />
-  )
-  
+      key={item.id}
+      title={item.title}
+      description={item.description}
+    />
+    )
+    
 }
 
 function App() {
