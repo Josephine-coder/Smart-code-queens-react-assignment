@@ -1,1 +1,1 @@
-Chiziterem's work
+Smart-code-queens-react-assignment
